@@ -17,7 +17,7 @@ def assign_rooms(array)
   array.each_with_index do |attendee,room|
     assignment.push("Hello, #{attendee}! You'll be assigned to room #{room+=1}!")
   end
-  puts assignment.join("
+  p assignment.join("
 ")
 end
 
