@@ -9,7 +9,7 @@ def batch_badge_creator(array)
   array.each do |attendee|  
  message.push(badge_maker(attendee))
 end  
-print message
+p message
 end
 
 def assign_rooms(array)
