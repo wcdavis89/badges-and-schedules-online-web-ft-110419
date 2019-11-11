@@ -27,6 +27,6 @@ array.each do ||
  room=(assign_rooms(array))
  array.each_with_index do |attendee,room|
  end
-puts greet
-puts room
+p greet
+p room
 end
