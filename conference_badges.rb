@@ -20,8 +20,13 @@ def assign_rooms(array)
   p assignment
 end
 
-def printer greet=(batch_badge_creator(array))
- room=(assign_rooms(array))
-
-
+def printer(attendees)
+  resultOne = batch_badge_creator(attendees)
+  resultOne.each do |x|
+    puts x 
+  end
+  result = assign_rooms(attendees)
+  result.each do |x|
+    puts x 
+  end
 end
