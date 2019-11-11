@@ -23,6 +23,6 @@ end
 def printer(array)
  greet=(batch_badge_creator(array))
  room=(assign_rooms(array))
- end
+
 
 end
