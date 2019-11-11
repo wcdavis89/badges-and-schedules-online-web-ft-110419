@@ -22,7 +22,6 @@ end
 
 def printer(array)
  greet=(batch_badge_creator(array))
-greet
  room=(assign_rooms(array))
  array.each_with_index do |attendee,room|
  end
